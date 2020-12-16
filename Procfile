@@ -1,0 +1,1 @@
+web: gunicorn tetrika_csv.wsgi --log-file -

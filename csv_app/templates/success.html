@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        {% if file %}
+        <div>
+            <p>Файл успешно загружен.</p>
+        </div>
+        <table>
+            <caption>Ранг</caption>
+            {% for f in file %}
+            <tr>
+                <td>
+                    {{ f.rank }}
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+        {% endif %}
+    </div>
+
+    <a href="{% url 'upload' %}">Загрузить файл</a>
+</body>
+</html>
