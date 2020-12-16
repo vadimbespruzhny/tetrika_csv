@@ -26,7 +26,7 @@ SECRET_KEY = 'xh$rq!zhi=k&^r2g0%p2zo%)z25_2u#_tvx=$17d0isa5jue^l'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["0.0.0.0"]
+ALLOWED_HOSTS = ["tetrika.herokuapp.com"]
 
 
 # Application definition
